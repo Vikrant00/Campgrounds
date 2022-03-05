@@ -34,13 +34,12 @@ Link to the deployed app:
     mongoose.connect('mongodb://localhost:27017/yelp-camp')
   ```
 - make a env file and get your cloudinary api keys to have cloud storage for your images do the same for mapbox. Example of .env file:
- ```env
-    CLOUDINARY_CLOUD_NAME=__________________
-    CLOUDINARY_KEY=__________________
-    CLOUDINARY_SECRET=_____________________
-    MAPBOX_TOKEN=______________________
- ```
--to run :
+  ```env
+      CLOUDINARY_CLOUD_NAME=__________________
+      CLOUDINARY_KEY=__________________
+      CLOUDINARY_SECRET=_____________________
+      MAPBOX_TOKEN=______________________
+  ```
+- to run :
 
-
-![Alt text](campgrounds/../assets/run.png)
+  ![Alt text](campgrounds/../assets/run.png)
